@@ -490,7 +490,6 @@ function prevent(e) {
 }
 
 function checkKey(e,justPressed) {
-
     if (winning) {
     	return;
     }

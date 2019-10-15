@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/toolbar.css">
 <link rel="stylesheet" href="css/show-hint.css">
+<link rel="stylesheet" href="css/sigmagraph.css">
 
 <!--CSSREPLACE-->
 <link rel="shortcut icon" type="image/x-icon" href="Documentation/ico/favicon.ico" />
@@ -129,7 +130,7 @@ LEVELS
 <option value="blank">Blank Project</option>
 </optgroup>
 </select>
-</form>- <a id="runClickLink" href="javascript:void('Run the Game');">RUN</a> - <a id="rebuildClickLink" href="javascript:void('Rebuild without restarting');">REBUILD</a> - <a id="levelEditorClickLink" href="javascript:void('Open Level Editor');">LEVEL EDITOR</a> - <a id="exportClickLink" href="javascript:void('Export Standalone HTML Build');">EXPORT</a> - <a id="shareClickLink" href="javascript:void('Generate Link To Game');">SHARE</a> - <a href="Documentation/documentation.html"  target="Puzzle_Script_Documentation">DOCS</a>  - <a href="https://groups.google.com/forum/#!forum/puzzlescript">FORUM</a>
+</form>- <a id="runClickLink" href="javascript:void('Run the Game');">RUN</a> - <a id="botRunClickLink" href="javascript:void('Run the Game');">BOT RUN</a> - <a id="rebuildClickLink" href="javascript:void('Rebuild without restarting');">REBUILD</a> - <a id="levelEditorClickLink" href="javascript:void('Open Level Editor');">LEVEL EDITOR</a> - <a id="exportClickLink" href="javascript:void('Export Standalone HTML Build');">EXPORT</a> - <a id="shareClickLink" href="javascript:void('Generate Link To Game');">SHARE</a> - <a href="Documentation/documentation.html"  target="Puzzle_Script_Documentation">DOCS</a>  - <a href="https://groups.google.com/forum/#!forum/puzzlescript">FORUM</a>
 </div>
 
 <div id="righttophalf">	
@@ -160,8 +161,15 @@ LEVELS
 &nbsp;&nbsp;&nbsp;PuzzleScript Log V1.6.0<br>
 =================================<br>
 </div>
+<div id="graphContainer"></div>
 	</div>
 </div>
+
+<!--SIGMA-->
+<script src="sigma/src/sigma.min.js"></script>
+<script src="sigma/plugins/sigma.layout.forceAtlas2/worker.js"></script>
+<script src="sigma/plugins/sigma.layout.forceAtlas2/supervisor.js"></script>
+<script src="js/bot.js"></script>
 
 <!--TOREPLACE-->
 <script src="js/Blob.js"></script>

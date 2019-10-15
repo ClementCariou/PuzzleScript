@@ -8,6 +8,21 @@ function runClick() {
 	compile(["restart"]);
 }
 
+function botRunClick() {
+	muteAudio();
+	let output = [];
+	compile(["restart"]);
+	let s = 0;
+	//for(let s = 0; s < state.levels.length; s++){
+		compile(["loadLevel",s]);
+		output.push(`level ${s+1} => ${bruteForce(true)}`);
+	//}
+	compile(["loadLevel",s]);
+	redraw();
+	clearConsole();
+	output.map(consolePrint);
+}
+
 function dateToReadable(title,time) {
 	var year = time.getFullYear();
 	var month = time.getMonth()+1;

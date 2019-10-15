@@ -1,0 +1,10 @@
+#graphContainer{
+    display: none;
+    position: absolute;
+    width: 50%;
+    top:0;
+    bottom: 0;
+    right: 2px;
+    z-index: 10;
+    border-left: solid 2px #444444;
+}
