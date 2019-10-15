@@ -1,13 +1,7 @@
-PuzzleScript
+PuzzleScript Level Analyser
 ============
 
-Open Source HTML5 Puzzle Game Engine
-
-Try it out at https://www.puzzlescript.net
-
------
-
-Dev instructions here - https://groups.google.com/forum/#!searchin/puzzlescript/development/puzzlescript/yptIpY9hlng/cjfrOPy_4jcJ
+PuzzleScript Level Analyser to help level creation. 
 
 -----
 
